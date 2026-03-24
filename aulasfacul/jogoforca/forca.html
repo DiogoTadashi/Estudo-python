@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="application-name" content="jogoforca.html">
+    <title>JogoForca</title>  
+    <link rel="stylesheet" href="style.css"> 
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="divPrincipal">
+        <pre>
+           (Õ Õ)
+            _|_
+             |
+           _/ \_
+        </pre>
+        <h1>A Forca</h1>
+        <label class="lblsecreto" for="secreto">Digite a palavra secreta</label>
+        <form>
+        <input type="text" id="secreto" name="secreto" placeholder="Insira a palavra secreta">
+        </form>
+        <br>
+        <button id="btnJogar">Jogar</button>
+    </div>
+    <div id = "divJogo">
+
+        <label id="PalavraSecreta"></label>
+        <br>
+        <p id="viewSessionStorage" hidden></p>
+        <input type="button" id="inputButton2" value="Exibir">
+        <br>
+        <label class="letra" for="letra">Digite a letra que deseja tentar</label>
+        <br>
+        <input type="text" id="letra" placeholder="Insira a letra que deseja tentar" required></input><br>
+        <button id="btnTentar">Tentar</button>
+        
+    </div>
+</body>
+</html>

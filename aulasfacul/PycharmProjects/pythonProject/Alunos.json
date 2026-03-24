@@ -1,0 +1,34 @@
+[
+    [
+        {
+            "id": 1,
+            "nome": "diogo",
+            "sexo": "M",
+            "peso": 77.0,
+            "altura": 1.73,
+            "mensalidade": 100.0
+        },
+        {
+            "id": 2,
+            "nome": "diogo",
+            "sexo": "M",
+            "peso": 78.0,
+            "altura": 1.73,
+            "mensalidade": 100.0
+        },
+        {
+            "id": 3,
+            "nome": "Augusto Henrique Carlos Silva",
+            "sexo": "NB",
+            "peso": 92.0,
+            "altura": 1.95,
+            "mensalidade": 250.0
+        }
+    ],
+    4,
+    [
+        25.727555214006482,
+        26.061679307694877,
+        24.194608809993426
+    ]
+]
