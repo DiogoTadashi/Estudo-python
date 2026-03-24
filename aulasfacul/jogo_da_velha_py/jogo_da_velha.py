@@ -21,7 +21,7 @@ while(not result):
     vez = vez%2
     print(f"{jogador[vez]}, é sua vez:")
     print_matriz(mat)
-    l,c = map(int,input("Digite o valor da linha e coluna que deseja jogar separado por espaço:").split(" "))
+    l,c = map(int,input("Digite o valor da linha e coluna que deseja jogar separado por espaço: (0-2) (0-2)").split(" "))
     mat[l][c] = simb[vez]
     limpar_tela()
     result = verif_resultado(mat,jogador,simb,vez,rodada)
